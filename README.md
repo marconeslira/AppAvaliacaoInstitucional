@@ -17,7 +17,7 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 
   Caso deseje via Git use o seguinte código:
 
-  ```git clone https://github.com/marconeslira/AppAvaliacaoInstitucional.git
+  ```git clone https://github.com/marconeslira/AppAvaliacaoInstitucional.git```
 
 ### USO INICIAL
 
