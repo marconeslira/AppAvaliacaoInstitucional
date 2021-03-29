@@ -21,10 +21,10 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 
 ### INFORMAÇÕES DA ESTRUTURA DE LAYOUT (WIDGET TREE)
 
-#### Página Inicial
+#### - Página Inicial
 ![](assets/imagens/diagramaloginpage.png)
 
-### Página de Confirmação
+### - Página de Confirmação
 ![](assets/imagens/diagramaConfirmPage.png)
 
 
