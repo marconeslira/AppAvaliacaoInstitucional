@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'ConfirmPage.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -10,7 +11,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.tealAccent[400],
+      backgroundColor: Colors.tealAccent,
       body: Container(
         width: double.infinity,
         height: double.infinity,
@@ -36,18 +37,19 @@ class _LoginPageState extends State<LoginPage> {
                   child: Container(
                     width: 280,
                     height: 40,
-                    child: OutlineButton(
+                    child: RaisedButton(
                       child: Text(
                         'Sou Aluno',
                         style: TextStyle(color: Colors.black),
                       ),
                       onPressed: () {
-                        print("Butao");
+                        Navigator.of(context).pushReplacement(MaterialPageRoute(
+                            builder: (context) => ConfirmPage()));
                       },
-                      borderSide: BorderSide(width: 0.8),
-                      color: Colors.tealAccent,
+                      //borderSide: BorderSide(width: 0.8),
+                      color: Colors.amberAccent,
                       highlightColor: Colors.tealAccent[700],
-                      highlightedBorderColor: Colors.white,
+                      //highlightedBorderColor: Colors.white,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15)),
                     ),
@@ -63,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                     margin: const EdgeInsets.only(top: 45),
                     width: 280,
                     height: 40,
-                    child: OutlineButton(
+                    child: RaisedButton(
                       child: Text(
                         'Sou da CPA',
                         style: TextStyle(color: Colors.black),
@@ -71,10 +73,10 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: () {
                         print("Butao");
                       },
-                      borderSide: BorderSide(width: 0.8),
-                      color: Colors.tealAccent,
+                      //borderSide: BorderSide(width: 0.8),
+                      color: Colors.amberAccent,
                       highlightColor: Colors.tealAccent[700],
-                      highlightedBorderColor: Colors.white,
+                      //highlightedBorderColor: Colors.white,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15)),
                     ),
@@ -85,14 +87,20 @@ class _LoginPageState extends State<LoginPage> {
           ],
         ),
       ),
-      bottomNavigationBar: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Container(
-            margin: EdgeInsets.only(bottom: 10),
-            child: Text('by: Marcones Lira'),
-          ),
-        ],
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.teal,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              margin: EdgeInsets.only(top: 10, bottom: 10),
+              child: Text(
+                'by: Marcones Lira',
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
