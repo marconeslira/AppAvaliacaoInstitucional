@@ -19,6 +19,16 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 
   ```git clone https://github.com/marconeslira/AppAvaliacaoInstitucional.git```
 
+### INFORMAÇÕES DA ESTRUTURA DE LAYOUT (WIDGET TREE)
+
+#### Página Inicial
+![](assets/imagens/diagramaloginpage.png)
+
+### Página de Confirmação
+![](assets/imagens/diagramaConfirmPage.png)
+
+
+
 ### USO INICIAL
 
   Para acessar inicialmente o módulo de CPA (gestor) use o login e senha padrão:
