@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'ConfirmPage.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -8,6 +9,14 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  openURL() async {
+    if (await canLaunch("http://www.dlirati.com.br")) {
+      await launch("http://www.dlirati.com.br");
+    } else {
+      throw 'URL não encontrada.';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,7 +46,13 @@ class _LoginPageState extends State<LoginPage> {
                   child: Container(
                     width: 280,
                     height: 40,
-                    child: RaisedButton(
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.amberAccent,
+                        onPrimary: Colors.tealAccent[700],
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15)),
+                      ),
                       child: Text(
                         'Sou Aluno',
                         style: TextStyle(color: Colors.black),
@@ -46,12 +61,6 @@ class _LoginPageState extends State<LoginPage> {
                         Navigator.of(context).pushReplacement(MaterialPageRoute(
                             builder: (context) => ConfirmPage()));
                       },
-                      //borderSide: BorderSide(width: 0.8),
-                      color: Colors.amberAccent,
-                      highlightColor: Colors.tealAccent[700],
-                      //highlightedBorderColor: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(15)),
                     ),
                   ),
                 ),
@@ -65,7 +74,13 @@ class _LoginPageState extends State<LoginPage> {
                     margin: const EdgeInsets.only(top: 45),
                     width: 280,
                     height: 40,
-                    child: RaisedButton(
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.amberAccent,
+                        onPrimary: Colors.teal[800],
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15)),
+                      ),
                       child: Text(
                         'Sou da CPA',
                         style: TextStyle(color: Colors.black),
@@ -73,12 +88,6 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: () {
                         print("Butao");
                       },
-                      //borderSide: BorderSide(width: 0.8),
-                      color: Colors.amberAccent,
-                      highlightColor: Colors.tealAccent[700],
-                      //highlightedBorderColor: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(15)),
                     ),
                   ),
                 ),
@@ -94,9 +103,12 @@ class _LoginPageState extends State<LoginPage> {
           children: [
             Container(
               margin: EdgeInsets.only(top: 10, bottom: 10),
-              child: Text(
-                'by: Marcones Lira',
-                style: TextStyle(color: Colors.white),
+              child: TextButton(
+                child: Text(
+                  'by: Marcones Lira',
+                  style: TextStyle(color: Colors.white),
+                ),
+                onPressed: () {},
               ),
             ),
           ],

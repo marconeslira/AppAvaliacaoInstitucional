@@ -21,7 +21,7 @@ class _ConfirmPageState extends State<ConfirmPage> {
       backgroundColor: Colors.tealAccent,
       appBar: AppBar(
         title: Text(
-          'Bem Vindos!',
+          'Bem Vind@!',
           style: TextStyle(fontSize: 15),
         ),
         centerTitle: true,
@@ -79,28 +79,38 @@ class _ConfirmPageState extends State<ConfirmPage> {
                   width: 150,
                   height: 40,
                   margin: EdgeInsets.only(right: 40),
-                  child: RaisedButton(
-                    child: Text('Voltar'),
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.amberAccent,
+                      onPrimary: Colors.tealAccent[700],
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(15)),
+                    ),
+                    child: Text(
+                      'Voltar',
+                      style: TextStyle(color: Colors.black),
+                    ),
                     onPressed: () {
                       Navigator.of(context).pushReplacement(
                           MaterialPageRoute(builder: (context) => LoginPage()));
                     },
-                    color: Colors.amberAccent,
-                    highlightColor: Colors.tealAccent[700],
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15)),
                   ),
                 ),
                 Container(
                     width: 150,
                     height: 40,
-                    child: RaisedButton(
-                      child: Text('Continuar'),
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.amberAccent,
+                        onPrimary: Colors.tealAccent[700],
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15)),
+                      ),
+                      child: Text(
+                        'Continuar',
+                        style: TextStyle(color: Colors.black),
+                      ),
                       onPressed: () {},
-                      color: Colors.amberAccent,
-                      highlightColor: Colors.tealAccent[700],
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(15)),
                     )),
               ],
             ),
