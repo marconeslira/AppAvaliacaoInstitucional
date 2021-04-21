@@ -1,22 +1,15 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'ConfirmPage.dart';
-import 'package:url_launcher/url_launcher.dart';
 
-class LoginPage extends StatefulWidget {
+//import 'package:url_launcher/url_launcher.dart';
+
+class PageInicial extends StatefulWidget {
   @override
-  _LoginPageState createState() => _LoginPageState();
+  _PageInicialState createState() => _PageInicialState();
 }
 
-class _LoginPageState extends State<LoginPage> {
-  openURL() async {
-    if (await canLaunch("http://www.dlirati.com.br")) {
-      await launch("http://www.dlirati.com.br");
-    } else {
-      throw 'URL não encontrada.';
-    }
-  }
-
+class _PageInicialState extends State<PageInicial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'LoginPage.dart';
+import 'PageForm.dart';
+import 'PageInicial.dart';
 
 class ConfirmPage extends StatefulWidget {
   @override
@@ -91,8 +91,8 @@ class _ConfirmPageState extends State<ConfirmPage> {
                       style: TextStyle(color: Colors.black),
                     ),
                     onPressed: () {
-                      Navigator.of(context).pushReplacement(
-                          MaterialPageRoute(builder: (context) => LoginPage()));
+                      Navigator.of(context).pushReplacement(MaterialPageRoute(
+                          builder: (context) => PageInicial()));
                     },
                   ),
                 ),
@@ -110,7 +110,10 @@ class _ConfirmPageState extends State<ConfirmPage> {
                         'Continuar',
                         style: TextStyle(color: Colors.black),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => PageForm()));
+                      },
                     )),
               ],
             ),
