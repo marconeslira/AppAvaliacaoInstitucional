@@ -66,6 +66,7 @@ class _PageFormState extends State<PageForm> {
                   margin: EdgeInsets.only(top: 20),
                   height: 40,
                   child: TextField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                       labelText: 'Período / Módulo',
                       border: OutlineInputBorder(),

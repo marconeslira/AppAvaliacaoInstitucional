@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'ConfirmPage.dart';
+import 'PageLogin.dart';
 
 //import 'package:url_launcher/url_launcher.dart';
 
@@ -79,7 +80,8 @@ class _PageInicialState extends State<PageInicial> {
                         style: TextStyle(color: Colors.black),
                       ),
                       onPressed: () {
-                        print("Butao");
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => PageLogin()));
                       },
                     ),
                   ),

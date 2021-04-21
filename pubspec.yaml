@@ -51,6 +51,7 @@ flutter:
   assets:
    - assets/imagens/imgtopapp.png
    - assets/imagens/logopolo.png
+   - assets/imagens/cadeado.png
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
