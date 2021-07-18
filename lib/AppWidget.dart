@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'PageInicial.dart';
+import 'Home/PageInicial.dart';
+import 'Dashboard/PageDashboard.dart';
 
 class AppWidget extends StatelessWidget {
   @override
