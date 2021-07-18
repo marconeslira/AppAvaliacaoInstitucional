@@ -28,9 +28,9 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 ![](assets/imagens/diagramaConfirmPage.png)
 
 ### MAPAS DE NAVEGAÇÃO
-![](assets/imagens/mapa1.png)
-![](assets/imagens/mapa2.png)
-![](assets/imagens/mapa3.png)
+![](assets/imagens/mapa1.PNG)
+![](assets/imagens/mapa2.PNG)
+![](assets/imagens/mapa3.PNG)
 
 
 ### USO INICIAL
