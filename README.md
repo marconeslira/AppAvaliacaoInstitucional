@@ -9,10 +9,13 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
    Este App tem o objetivo de facilitar o processo de Avaliação Institucional, trazendo dois módulos, o de aluno onde os mesmos poderão responder o questionário previamente construído pela CPA (Comissão Própria de Avaliação) e o módulo CPA (gestor), onde apresentamos uma dash com informações, gráficos, estatísticas oriundas do resultado dos dados colhidos no módulo aluno, com o intuito de Inferir uma métrica de informações sobre principais pontos positivos e negativos da instituição e investigar possíveis alunos em situação de evasão, dificuldades e sugestões de melhorias. 
 
 ### LOGOTIPOS
-![](assets/imagens/Logoapp1.png) ![](assets/imagens/LogoApp.png)
+![](assets/imagens/Logoapp1.png) ![](assets/imagens/LogoApp.png) 
 
 ### VÍDEO DE APRESENTAÇÃO
 [![Clique no Vídeo](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=eL8iYzOzNik)
+
+### VÍDEO DEMONSTRATIVO 
+[![Clique no Vídeo](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/GfI14Rnw4rU)
 
 ### INSTALAÇÃO (Dev)
   Para proceder com a instalação deste projeto para modificações será necessário:
