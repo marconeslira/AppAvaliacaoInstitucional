@@ -11,6 +11,9 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 ### LOGOTIPOS
 ![](assets/imagens/Logoapp1.png) ![](assets/imagens/LogoApp.png)
 
+### VÍDEO DE APRESENTAÇÃO
+![](assets/imagens/video.mp4)
+
 ### INSTALAÇÃO (Dev)
   Para proceder com a instalação deste projeto para modificações será necessário:
 
