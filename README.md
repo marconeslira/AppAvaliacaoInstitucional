@@ -12,7 +12,7 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 ![](assets/imagens/Logoapp1.png) ![](assets/imagens/LogoApp.png)
 
 ### VÍDEO DE APRESENTAÇÃO
-[![Clique no Vídeo](https://i.imgur.com/vKb2F1B.png)](https://https://www.youtube.com/watch?v=eL8iYzOzNik)
+[![Clique no Vídeo](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=eL8iYzOzNik)
 
 ### INSTALAÇÃO (Dev)
   Para proceder com a instalação deste projeto para modificações será necessário:
