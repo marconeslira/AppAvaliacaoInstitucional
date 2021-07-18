@@ -35,6 +35,9 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 ![](assets/imagens/mapa2.PNG)
 ![](assets/imagens/mapa3.PNG)
 
+### LINK PARA BAIXAR NA PLAY STORE
+
+[Download do App](https://play.google.com/store/apps/details?id=br.com.marconeslira.avaliacao_institucional)
 
 ### USO INICIAL
 
