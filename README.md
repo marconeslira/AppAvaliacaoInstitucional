@@ -37,7 +37,7 @@ Projeto da Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE.
 
   Para acessar inicialmente o módulo de CPA (gestor) use o login e senha padrão:
 
-  Login: Admin
+  Login: Administrador
   Senha: Admin
 
 ### AJUDA
